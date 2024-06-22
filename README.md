@@ -1,10 +1,10 @@
 # Extractive-Summariation
 Code for summarization using Pegasus Model:<br/>
-import torch__
-from transformers import PegasusForConditionalGeneration, PegasusTokenizer__ 
-from datasets import load_dataset__ 
-from rouge_score import rouge_scorer__ 
-import numpy as np__ 
+import torch<br/>
+from transformers import PegasusForConditionalGeneration, PegasusTokenizer<br/>
+from datasets import load_dataset<br/>
+from rouge_score import rouge_scorer<br/> 
+import numpy as np<br/> 
 # Load the SAMSum dataset__ 
 dataset = load_dataset('samsum', split='train[:30%]')__ 
 validation_dataset = load_dataset('samsum', split='validation[:30%]')__ 
