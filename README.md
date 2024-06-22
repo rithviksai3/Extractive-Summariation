@@ -1,5 +1,5 @@
 # Extractive-Summariation
-Code for summarization using Pegasus Model:__ 
+Code for summarization using Pegasus Model:<br/>
 import torch__
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer__ 
 from datasets import load_dataset__ 
